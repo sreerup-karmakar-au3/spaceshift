@@ -21,13 +21,14 @@
 }
 
 .tabs li.tab a {
-  font-size: 1.5em;
+  font-size: 23px;
+  color: darkgray;
 }
 
 .heading {
   background-color: #ef9a9a;
   padding: 5px 25px 5px 25px;
-  font-size: 1.5em;
+  font-size: 25px;
   font-weight: 500;
   border-radius: 20px;
 }
@@ -39,17 +40,20 @@
 
 .food-items .food-name {
   font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 0;
 }
 
 .food-items .food-tag {
   display: block;
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .food-items .food-price {
   font-weight: bold;
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 17px;
 }
 
 .food-items .quantity {
@@ -57,7 +61,7 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 50px;
+  top: 44px;
   right: 35px;
 }
 
