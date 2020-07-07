@@ -1,0 +1,106 @@
+.navbar {
+  margin: 15px 15px 0px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.active {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.tabs li.tab {
+  text-transform: none;
+}
+
+.tabs li.tab a {
+  font-size: 1.5em;
+}
+
+.heading {
+  background-color: #ef9a9a;
+  padding: 5px 25px 5px 25px;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.food-items {
+  margin: 30px;
+  position: relative;
+}
+
+.food-items .food-name {
+  font-weight: bold;
+}
+
+.food-items .food-tag {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.food-items .food-price {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.food-items .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+}
+
+.food-items .quantity .add-items {
+  padding: 1px 10px 1px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+
+.food-items .quantity input[type=text] {
+  height: 10% !important;
+  width: 10% !important;
+}
+
+.food-items .quantity button {
+  height: 10% !important;
+  padding: 0 5px 0 5px !important;
+  background-color: #ef9a9a;
+  border-color: #ef9a9a;
+}
+
+.footer {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ef9a9a;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer #symbol, .footer #amount {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.footer .order {
+  font-size: large;
+  padding: 10px;
+}
+/*# sourceMappingURL=menu.css.map */

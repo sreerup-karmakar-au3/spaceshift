@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Page</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://kit.fontawesome.com/fa0348eda9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/menu.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <i class="fas fa-arrow-left"></i> <i class="fas fa-bars"></i>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col"><a class="active" href="#test1">Pizzas and Pastas</a></li>
+                    <li class="tab col"><a href="#test2">Main Course</a></li>
+                    <li class="tab col"><a href="#test3">Panini</a></li>
+                    <li class="tab col"><a href="#test4">Antipasti</a></li>
+                    <li class="tab col"><a href="#test5">Condiments and Sides</a></li>
+                    <li class="tab col"><a href="#test6">Desserts and Beverages</a></li>
+                    <li class="tab col"><a href="#test7">Drinks</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row center-align">
+            <span class="heading">Veg</span>
+            <div class="food-items">
+                <h6 class="food-name">Risotto Ai Funghi</h6>
+                <span class="food-tag">Italian style rice with assorted mushroom</span>
+                <span class="food-price">Rs 580.50</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="580.50">Add</span></span>
+            </div>
+            <div class="food-items">
+                <h6 class="food-name">Risotto Alle Gamberi</h6>
+                <span class="food-tag">Italian style rice with prawns</span>
+                <span class="food-price">Rs 625.50</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="625.50">Add</span></span>
+            </div>
+            <div class="food-items">
+                <h6 class="food-name">Cannelloni Imbottito</h6>
+                <span class="food-tag">Italian style rice with assorted mushroom</span>
+                <span class="food-price">Rs 450.50</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="450.50">Add</span></span>
+            </div>
+        </div>
+
+        <div class="row center-align" style="margin-bottom: 50px;">
+            <span class="heading">Non-Veg</span>
+            <div class="food-items">
+                <h6 class="food-name">Capelleti Di Ricotta E Spinachi</h6>
+                <span class="food-tag">Italian style rice with assorted mushroom</span>
+                <span class="food-price">Rs 580.50</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="580.50">Add</span></span>
+            </div>
+            <div class="food-items">
+                <h6 class="food-name">Lasagna Peperonata</h6>
+                <span class="food-tag">Italian style rice with prawns</span>
+                <span class="food-price">Rs 325.25</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="325.25">Add</span></span>
+            </div>
+            <div class="food-items">
+                <h6 class="food-name">Tagliatelle Ai Pomodori</h6>
+                <span class="food-tag">Italian style rice with prawns</span>
+                <span class="food-price">Rs 420.75</span> <span class="quantity"><span class="red lighten-3 add-items" data-val="420.75">Add</span></span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="total">
+                <span style="display: block;">1 item in your order</span>
+                <span id="symbol">Rs</span> <span id="amount"></span>
+            </div>
+            <div class="order">
+                View Order <i class="fas fa-chevron-circle-right" style="color: white;"></i>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="menu.js"></script>
+    </body>
+</html>
